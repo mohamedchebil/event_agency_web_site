@@ -1,0 +1,33 @@
+.description-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    padding-bottom: 20vh;
+}
+.description-text{
+    text-align: justify;   
+    font-size: 4vh;
+    width: 30%; 
+}
+.description-photo{
+    height: 400px;
+    width: 400px;
+}
+@media(max-width:500px){
+    .description-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2vh;
+    }
+    .description-text{
+        text-align: justify;
+        font-size: 13px;
+        width: 200px;
+    }
+    .description-photo{
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+}

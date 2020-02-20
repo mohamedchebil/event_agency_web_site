@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Arsenal;
+  src: url('./assets/fonts/Arsenal-Regular.otf');
+}
+@font-face {
+  font-family: ArsenalBold;
+  src: url('./assets/fonts/Arsenal-Bold.otf');
+}
+
+
+
+body{
+  font-family: 'Arsenal';
+  color: white;
+  background-color: #171616;
+  margin :0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vh;
+}

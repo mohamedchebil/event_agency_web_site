@@ -1,0 +1,48 @@
+header{
+    background-color: #171616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    color:red;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header-logo{
+    
+    width: 15vh;
+}
+.menu-container{
+   display: flex;
+   margin-right: 20vh;
+}
+.menu-link{
+    font-family: ArsenalBold;
+    text-decoration: none;
+    color:white;
+    font-size: 3vh;
+    margin-right: 8vh;
+}
+.menu-link:hover{
+    border-bottom:1px solid white;
+}
+
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        margin:0;
+        width:100vh;
+    }
+    .menu-container{
+        flex-direction: column;
+        margin:0
+    }
+    .menu-link{
+        margin: 0;
+        text-align: center;
+        width:100vh;
+    }
+}

@@ -1,0 +1,12 @@
+.sponsors-image{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    width: 100%;
+}
+@media(max-width:500px){
+    .sponsors-image{
+        margin-top: 180px;
+        margin-left: 2vh;
+        width: 80vh;
+    }
+}
